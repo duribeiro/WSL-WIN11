@@ -18,3 +18,34 @@ Abra o terminal do Windows em modo adm e rode esse código
 wsl --install
 ```
 
+### COMANDOS ÚTIEIS
+
+Exibe uma lista de distros Linux disponíveis
+
+```
+wsl --list --online
+```
+
+Instala uma distro diferente do Ubuntu
+
+```
+wsl --install -d <DistroName>
+```
+
+Atualiza manualmente o kernel WSL Linux
+
+```
+wsl --update
+```
+
+Eexibe informações gerais de configuração WSL
+
+```
+wsl --status
+```
+
+Desinstala uma distro
+
+```
+wsl --unregister <distro-name>
+```
