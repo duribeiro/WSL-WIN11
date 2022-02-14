@@ -1,6 +1,8 @@
 # WSL-WIN11
 Como instalar e configurar o WSL no Windows 11
 
+Documentação: https://docs.microsoft.com/pt-br/windows/wsl/install
+
 # O QUE É WSL?
 
 WSL é uma ferramenta do windows que permite que rodemos o linux dentro dele.
