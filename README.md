@@ -65,3 +65,8 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 Baixar o pacote de atualização do kernel do Linux
 
 [Pacote de aualização](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi´)
+
+# PASSO 4 
+
+Reiniciar o computador e depois cadastrar user e senha
+
