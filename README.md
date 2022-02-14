@@ -20,6 +20,25 @@ Abra o terminal do Windows em modo adm e rode esse código
 wsl --install
 ```
 
+# PASSO 2 
+
+Habilitar o recurso de Máquina Virtual
+
+```
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+
+# PASSO 3
+
+Baixar o pacote de atualização do kernel do Linux
+
+[Pacote de aualização](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi´)
+
+# PASSO 4 
+
+Reiniciar o computador e depois cadastrar user e senha no ubuntu
+
+
 ### COMANDOS ÚTIEIS
 
 Exibe uma lista de distros Linux disponíveis
@@ -51,22 +70,4 @@ Desinstala uma distro
 ```
 wsl --unregister <distro-name>
 ```
-
-# PASSO 2 
-
-Habilitar o recurso de Máquina Virtual
-
-```
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-```
-
-# PASSO 3
-
-Baixar o pacote de atualização do kernel do Linux
-
-[Pacote de aualização](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi´)
-
-# PASSO 4 
-
-Reiniciar o computador e depois cadastrar user e senha
 
